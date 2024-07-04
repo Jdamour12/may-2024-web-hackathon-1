@@ -15,11 +15,11 @@
             <nav>
                 <img src="images/logo.png" class="logo">
                 <ul id="side-menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                     <i class="fas fa-times" onclick="closeMenu()"></i>
                 </ul>
                 <i class="fas fa-bars" onclick="openMenu()"></i>
@@ -48,7 +48,7 @@
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-title">About <span>Me</span></h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dignissimos excepturi obcaecati. Eius libero fugiat quibusdam id vitae qui, deserunt excepturi hic laudantium minima quaerat perferendis beatae possimus tenetur provident?</p>
+                    <p>Hello! I’m Kubwimana Jean D Amour, a Computer and Software Engineering student at the University of Rwanda with a focus on Artificial Intelligence and Machine Learning. Proficient in Java, JavaScript, C, C++, HTML, CSS, PHP, and Python, I am driven by continuous learning and adaptability, with accolades like the 2021 Excellence Award. I’m passionate about leveraging technology to solve real-world problems and am committed to contributing meaningfully to any team or project.</p>
 
                     <div class="tab-titles">
                         <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
@@ -92,19 +92,19 @@
                 <div>
                     <i class="fas fa-code"></i>
                     <h2>Web Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore inventore voluptates ut sequi totam quis natus? Quo id exercitationem provident, explicabo ipsam pariatur alias nostrum vitae voluptates illo necessitatibus?</p>
+                    <p>I create dynamic, responsive websites that enhance your online presence. From design to robust backend systems, I deliver high-quality, user-friendly sites to meet your business goals.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                     <i class="fas fa-crop-alt"></i>
                     <h2>UI/UX Design</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore inventore voluptates ut sequi totam quis natus? Quo id exercitationem provident, explicabo ipsam pariatur alias nostrum vitae voluptates illo necessitatibus?</p>
+                    <p>I design intuitive and visually appealing interfaces that enhance user experience. My goal is to create engaging and user-friendly designs that meet your business needs and delight your users.</p>
                     <a href="#">Learn More</a>
                 </div>
                 <div>
                     <i class="fab fa-app-store"></i>
                     <h2>Apps Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore inventore voluptates ut sequi totam quis natus? Quo id exercitationem provident, explicabo ipsam pariatur alias nostrum vitae voluptates illo necessitatibus?</p>
+                    <p>I develop high-quality, user-friendly mobile and web applications tailored to your needs. My focus is on creating functional, efficient, and engaging apps that enhance user experience and meet your business objectives.</p>
                     <a href="#">Learn More</a>
                 </div>
             </div>
@@ -122,28 +122,28 @@
                     <div class="layer">
                         <h3>Social Media App</h3>
                         <p>The Social Media app which will connects you to the talented people around the world. Go om and create an acount and start to chat.</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/Jdamour12/Social-Book.git"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                     
                 <div class="work">
-                    <img src="images/portfolio2.jpg">
+                    <img src="images/portfolio6.jpg">
                     <div class="layer">
                         <h3>Online Shopping App</h3>
                         <p>This the Online |Shopping App where you can visit and start to shop all electronic materials</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://github.com/Jdamour12/CoreStore.git"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="images/portfolio4.jpg">
+                    <img src="images/portfolio5.jpg">
                     <div class="layer">
                         <h3>Game App</h3>
-                        <p>This is the Game where you can play either either with your friend or Computer. It was crated by AI based algorithm.</p>
-                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        <p>This is the Game where you can play either with your friend or Computer. It was crated by AI based algorithm.</p>
+                        <a href="https://github.com/Jdamour12/Tic-Tac-Toe-With-AI.git"><i class="fas fa-external-link-alt"></i></a>
                     </div>
                 </div>
             </div>
-            <a href="#" class="btn">See More</a>
+            <a href="#contact" class="btn">See More</a>
         </div>
     </div>
 
@@ -166,12 +166,15 @@
                     <a href="images/Jean D Amour's Resume.pdf" download class="btn btn-2" >Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form action="">
+                    <form name="submit-to-google-sheet">
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
                         <textarea name="Message" rows="6" cols="" placeholder="Your Message" required></textarea>
                         <button class="btn btn-2">Submit</button>
                     </form>
+
+                    <span id="msg"></span>
+
                 </div>
             </div>
         </div>
