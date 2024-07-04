@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JD Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ee3438cc32.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -48,35 +49,98 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dignissimos excepturi obcaecati. Eius libero fugiat quibusdam id vitae qui, deserunt excepturi hic laudantium minima quaerat perferendis beatae possimus tenetur provident?</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
                     </div>
 
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
                             <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
                             <li><span>Web Development</span><br>Web app Development</li>
-                            <li><span>App Development</span><br>Building Android and iOS APps</li>
+                            <li><span>App Development</span><br>Building Android and iOS Apps</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
-                            <li><span>App Development</span><br>Building Android and iOS APps</li>
+                            <li><span>2024-Current</span><br>UI/UX Design Training at University of Rwanda</li>
+                            <li><span>2021-2023</span><br>Web Development Training at KEPLA</li>
+                            <li><span>2021-2022</span><br>Software Development Training at ALX</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
-                            <li><span>Web Development</span><br>Web app Development</li>
-                            <li><span>App Development</span><br>Building Android and iOS APps</li>
+                            <li><span>2024-Current</span><br>Full Stuck Software Development at PLP Academy</li>
+                            <li><span>2023-2024</span><br>Artificial Intelligence at ALX </li>
+                            <li><span>2022-Current</span><br>Computer and Software Engineering at University of Rwanda</li>
                         </ul>
                     </div>
 
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- ----------Services Section-------- -->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My <span>Services</span></h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore inventore voluptates ut sequi totam quis natus? Quo id exercitationem provident, explicabo ipsam pariatur alias nostrum vitae voluptates illo necessitatibus?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore inventore voluptates ut sequi totam quis natus? Quo id exercitationem provident, explicabo ipsam pariatur alias nostrum vitae voluptates illo necessitatibus?</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>Apps Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi dolore inventore voluptates ut sequi totam quis natus? Quo id exercitationem provident, explicabo ipsam pariatur alias nostrum vitae voluptates illo necessitatibus?</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------Portfolio Section-------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My <span>Works</span></h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/portfolio2.jpg">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The Social Media app which will connects you to the talented people around the world. Go om and create an acount and start to chat.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>This the Online |Shopping App where you can visit and start to shop all electronic materials</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    <div class="layer">
+                        <h3>Game App</h3>
+                        <p>This is the Game where you can play either either with your friend or Computer. It was crated by AI based algorithm.</p>
+                        <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/portfolio3.jpg" alt="">
+                </div>
+                <div class="work">
+                    <img src="images/portfolio4.jpg" alt="">
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
         </div>
     </div>
 
