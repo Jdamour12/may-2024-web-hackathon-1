@@ -48,12 +48,26 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus dignissimos excepturi obcaecati. Eius libero fugiat quibusdam id vitae qui, deserunt excepturi hic laudantium minima quaerat perferendis beatae possimus tenetur provident?</p>
 
                     <div class="tab-titles">
-                        <p class="tab-links active-link">Skills</p>
-                        <p class="tab-links">Experience</p>
-                        <p class="tab-links">Education</p>
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
                     </div>
 
-                    <div class="tab-contents">
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android and iOS APps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Building Android and iOS APps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
                         <ul>
                             <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
                             <li><span>Web Development</span><br>Web app Development</li>
@@ -67,5 +81,6 @@
     </div>
 
 
+    <script src="script.js"></script>
 </body>
 </html>
